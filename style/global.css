@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --text-color-primary: #F1F5F9;
+    --text-color-secondary: #CBD5E1;
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+
+    --fonty-family: "Archivo"
+}
+
+body{
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+}
