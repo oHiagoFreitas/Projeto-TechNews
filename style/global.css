@@ -12,10 +12,29 @@
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
 
-    --fonty-family: "Archivo"
+    --fonty-family: "Archivo", sans-serif;
+    --h1: 800 24px/135% var(--fonty-family);
+    --h2: 800 16px/140% var(--fonty-family);
+    --h3: 800 14px/140% var(--fonty-family); 
+    --text-span: 600 14px/145% var(--fonty-family); 
+    --text: 400 16px/160% var(--fonty-family);
+    --text-sm: 400 14px/160% var(--fonty-family);
 }
 
 body{
     color: var(--text-color-primary);
     background-color: var(--bg-color);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: var(--brand-color-light);
+}
+
+h1,h2,h3{
+    font: inherit;
 }
