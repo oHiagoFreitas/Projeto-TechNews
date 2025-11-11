@@ -128,11 +128,6 @@ aside {
         object-fit: cover;
     }
 
-    span {
-        background-image: url(../assets/icons/ArrowRight.svg);
-        height: 16px;
-        width: 16px;
-
-    }
+    
 
 }
